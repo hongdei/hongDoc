@@ -12,6 +12,8 @@ build:
   jobs:
     post_create_environment:
       - python -m pip install sphinx_rtd_theme
+      - python -m pip install recommonmark
+      - python -m pip install sphinx_markdown_tables
     # You can also specify other tool versions:
     # nodejs: "20"
     # rust: "1.70"
