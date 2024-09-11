@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>引言 &mdash; Sphinx 0.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=01f34227"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Sphinx 鏂囨。 documentation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Sphinx
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">引言</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">前言</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">要求</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">参考</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">定义</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#id6">创建仓库</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#sphinx">本地Sphinx文档</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id7">安装Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">创建文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">编译</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">配置主题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#makefile">配置MakeFile</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#id11">上传仓库</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#read-the-docs">上传Read the Docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id12">配置文件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id13">绑定仓库</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id14">构建在线文档</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Sphinx</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">引言</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Sphinx搭建.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>引言<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<section id="id2">
+<h2>前言<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>通过利用Sphinx+GitHub+Read the Docs实现文档管理和发布。</p>
+</section>
+<section id="id3">
+<h2>要求<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>GitHub账户</p>
+<p>sphinx账户</p>
+</section>
+<section id="id4">
+<h2>参考<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p><a class="reference external" href="https://www.cnblogs.com/hiyong/p/15376880.html#4-%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98">搭建在线电子书：Sphinx + Github + ReadTheDocs - 测试开发小记 - 博客园 (cnblogs.com)</a></p>
+<p><a class="reference external" href="https://github.com/readthedocs/sphinx_rtd_theme/issues/923">无法构建项目 ·问题 #923 ·阅读文档/sphinx_rtd_theme (github.com)</a></p>
+</section>
+<section id="id5">
+<h2>定义<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>无。</p>
+</section>
+</section>
+<section id="id6">
+<h1>创建仓库<a class="headerlink" href="#id6" title="Link to this heading"></a></h1>
+<p>Read the Docs导入文档有两种方式，一种是一键导入，使用下列账户可实现。另一种是通过仓库url导入。本文采取的为GitHub仓库。</p>
+<blockquote>
+<div><p><strong>导入不支持ssh连接</strong></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>gitbub</p></li>
+<li><p>gitlab</p></li>
+<li><p>Bitbucket</p></li>
+</ul>
+</section>
+<section id="sphinx">
+<h1>本地Sphinx文档<a class="headerlink" href="#sphinx" title="Link to this heading"></a></h1>
+<p>在GitHub新建仓库并拉取到本地。</p>
+<section id="id7">
+<h2>安装Sphinx<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><strong>安装需要python环境</strong></p>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">sphinx</span>
+</pre></div>
+</div>
+</section>
+<section id="id8">
+<h2>创建文档<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<p>通过sphinx命令初始化目录</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>sphinx-quickstart
+Welcome<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>Sphinx<span class="w"> </span><span class="m">4</span>.2.0<span class="w"> </span>quickstart<span class="w"> </span>utility.
+
+Please<span class="w"> </span>enter<span class="w"> </span>values<span class="w"> </span><span class="k">for</span><span class="w"> </span>the<span class="w"> </span>following<span class="w"> </span>settings<span class="w"> </span><span class="o">(</span>just<span class="w"> </span>press<span class="w"> </span>Enter<span class="w"> </span>to
+accept<span class="w"> </span>a<span class="w"> </span>default<span class="w"> </span>value,<span class="w"> </span><span class="k">if</span><span class="w"> </span>one<span class="w"> </span>is<span class="w"> </span>given<span class="w"> </span><span class="k">in</span><span class="w"> </span>brackets<span class="o">)</span>.
+
+Selected<span class="w"> </span>root<span class="w"> </span>path:<span class="w"> </span>.
+
+You<span class="w"> </span>have<span class="w"> </span>two<span class="w"> </span>options<span class="w"> </span><span class="k">for</span><span class="w"> </span>placing<span class="w"> </span>the<span class="w"> </span>build<span class="w"> </span>directory<span class="w"> </span><span class="k">for</span><span class="w"> </span>Sphinx<span class="w"> </span>output.
+Either,<span class="w"> </span>you<span class="w"> </span>use<span class="w"> </span>a<span class="w"> </span>directory<span class="w"> </span><span class="s2">&quot;_build&quot;</span><span class="w"> </span>within<span class="w"> </span>the<span class="w"> </span>root<span class="w"> </span>path,<span class="w"> </span>or<span class="w"> </span>you<span class="w"> </span>separate
+<span class="s2">&quot;source&quot;</span><span class="w"> </span>and<span class="w"> </span><span class="s2">&quot;build&quot;</span><span class="w"> </span>directories<span class="w"> </span>within<span class="w"> </span>the<span class="w"> </span>root<span class="w"> </span>path.
+&gt;<span class="w"> </span>Separate<span class="w"> </span><span class="nb">source</span><span class="w"> </span>and<span class="w"> </span>build<span class="w"> </span>directories<span class="w"> </span><span class="o">(</span>y/n<span class="o">)</span><span class="w"> </span><span class="o">[</span>n<span class="o">]</span>:<span class="w"> </span>y
+
+The<span class="w"> </span>project<span class="w"> </span>name<span class="w"> </span>will<span class="w"> </span>occur<span class="w"> </span><span class="k">in</span><span class="w"> </span>several<span class="w"> </span>places<span class="w"> </span><span class="k">in</span><span class="w"> </span>the<span class="w"> </span>built<span class="w"> </span>documentation.
+&gt;<span class="w"> </span>Project<span class="w"> </span>name:<span class="w"> </span>测试开发小记
+&gt;<span class="w"> </span>Author<span class="w"> </span>name<span class="o">(</span>s<span class="o">)</span>:<span class="w"> </span>hiyongz
+&gt;<span class="w"> </span>Project<span class="w"> </span>release<span class="w"> </span><span class="o">[]</span>:<span class="w"> </span><span class="m">0</span>.1.0
+
+If<span class="w"> </span>the<span class="w"> </span>documents<span class="w"> </span>are<span class="w"> </span>to<span class="w"> </span>be<span class="w"> </span>written<span class="w"> </span><span class="k">in</span><span class="w"> </span>a<span class="w"> </span>language<span class="w"> </span>other<span class="w"> </span>than<span class="w"> </span>English,
+you<span class="w"> </span>can<span class="w"> </span><span class="k">select</span><span class="w"> </span>a<span class="w"> </span>language<span class="w"> </span>here<span class="w"> </span>by<span class="w"> </span>its<span class="w"> </span>language<span class="w"> </span>code.<span class="w"> </span>Sphinx<span class="w"> </span>will<span class="w"> </span><span class="k">then</span>
+translate<span class="w"> </span>text<span class="w"> </span>that<span class="w"> </span>it<span class="w"> </span>generates<span class="w"> </span>into<span class="w"> </span>that<span class="w"> </span>language.
+
+For<span class="w"> </span>a<span class="w"> </span>list<span class="w"> </span>of<span class="w"> </span>supported<span class="w"> </span>codes,<span class="w"> </span>see
+https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
+<span class="c1">#使用ch_ZH会导致乱码</span>
+&gt;<span class="w"> </span>Project<span class="w"> </span>language<span class="w"> </span><span class="o">[</span>en<span class="o">]</span>:<span class="w"> </span>en
+</pre></div>
+</div>
+<p>本文目录结构如下</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>docs
+<span class="w">    </span>├─build
+<span class="w">    </span>│<span class="w">  </span>├─doctrees
+<span class="w">    </span>│<span class="w">  </span>└─html
+<span class="w">    </span>│<span class="w">      </span>├─_sources
+<span class="w">    </span>│<span class="w">      </span>└─_static
+<span class="w">    </span>│<span class="w">          </span>├─css
+<span class="w">    </span>│<span class="w">          </span>│<span class="w">  </span>└─fonts
+<span class="w">    </span>│<span class="w">          </span>└─js
+<span class="w">    </span>└─source
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>docs sphinx文件目录</p></li>
+<li><p>build 存放编译后的文件</p></li>
+<li><p>source/_static 存放静态文件</p></li>
+<li><p>source/_templates 存放模板文件</p></li>
+<li><p>source/conf.py 项目配置文件，上面的配置可以在这里面修改</p></li>
+<li><p>source/index.rst 首页</p></li>
+</ul>
+</section>
+<section id="id9">
+<h2>编译<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p>本文使用window环境</p>
+</div></blockquote>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>.<span class="se">\m</span>ake<span class="w"> </span>html
+</pre></div>
+</div>
+</section>
+<section id="id10">
+<h2>配置主题<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>安装sphinx_rtd_theme主题</p></li>
+</ul>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>sphinx_rtd_theme
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>配置conf.py</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#conf.py</span>
+<span class="kn">import</span> <span class="nn">sphinx_rtd_theme</span>
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s2">&quot;sphinx_rtd_theme&quot;</span>
+<span class="n">html_theme_path</span> <span class="o">=</span> <span class="p">[</span><span class="n">sphinx_rtd_theme</span><span class="o">.</span><span class="n">get_html_theme_path</span><span class="p">()]</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>重新编译</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">.</span>\<span class="n">make</span> <span class="n">html</span>
+</pre></div>
+</div>
+</section>
+<section id="makefile">
+<h2>配置MakeFile<a class="headerlink" href="#makefile" title="Link to this heading"></a></h2>
+<p>使用markdown进行文档编辑需要安装对应插件。</p>
+<ul class="simple">
+<li><p>安装recommonmark插件</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">recommonmark</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>安装支持markdown表格的插件</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx_markdown_tables</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>配置conf.py 文件</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extensions</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;recommonmark&#39;</span><span class="p">,</span><span class="s1">&#39;sphinx_markdown_tables&#39;</span><span class="p">]</span> 
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>修改目录</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#index.rst</span>
+<span class="o">..</span> <span class="n">toctree</span><span class="p">::</span>
+   <span class="p">:</span><span class="n">maxdepth</span><span class="p">:</span> <span class="mi">2</span>
+   <span class="p">:</span><span class="n">caption</span><span class="p">:</span> <span class="n">Contents</span><span class="p">:</span>
+   
+    <span class="n">windows</span><span class="o">-</span><span class="n">shortcuts</span><span class="o">.</span><span class="n">md</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id11">
+<h1>上传仓库<a class="headerlink" href="#id11" title="Link to this heading"></a></h1>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;sphinx&quot;</span>
+git<span class="w"> </span>push
+</pre></div>
+</div>
+</section>
+<section id="read-the-docs">
+<h1>上传Read the Docs<a class="headerlink" href="#read-the-docs" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>配置文件中需要声明conf.py位置和需要的配置文件，这里安装库较少直接写在配置文件中，也可使用requirements.txt管理需要安装的库。</p>
+</div></blockquote>
+<p>使用Read the Docs发布Sphinx文档需要配置文件，在最顶层目录创建”<strong>.readthedocs.yaml</strong>”文件。</p>
+<section id="id12">
+<h2>配置文件<a class="headerlink" href="#id12" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Read the Docs configuration file for Sphinx projects</span>
+<span class="c1"># See https://docs.readthedocs.io/en/stable/config-file/v2.html for details</span>
+
+<span class="c1"># Required</span>
+<span class="n">version</span><span class="p">:</span> <span class="mi">2</span>
+
+<span class="c1"># Set the OS, Python version and other tools you might need</span>
+<span class="n">build</span><span class="p">:</span>
+  <span class="n">os</span><span class="p">:</span> <span class="n">ubuntu</span><span class="o">-</span><span class="mf">22.04</span>
+  <span class="n">tools</span><span class="p">:</span>
+    <span class="n">python</span><span class="p">:</span> <span class="s2">&quot;3.12&quot;</span>
+<span class="c1">#安装库</span>
+  <span class="n">jobs</span><span class="p">:</span>
+    <span class="n">post_create_environment</span><span class="p">:</span>
+      <span class="o">-</span> <span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx_rtd_theme</span>
+      <span class="o">-</span> <span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">recommonmark</span>
+      <span class="o">-</span> <span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx_markdown_tables</span>
+    <span class="c1"># You can also specify other tool versions:</span>
+    <span class="c1"># nodejs: &quot;20&quot;</span>
+    <span class="c1"># rust: &quot;1.70&quot;</span>
+    <span class="c1"># golang: &quot;1.20&quot;</span>
+
+<span class="c1"># Build documentation in the &quot;docs/&quot; directory with Sphinx</span>
+<span class="n">sphinx</span><span class="p">:</span>
+  <span class="n">configuration</span><span class="p">:</span> <span class="n">docs</span><span class="o">/</span><span class="n">source</span><span class="o">/</span><span class="n">conf</span><span class="o">.</span><span class="n">py</span>
+  <span class="c1"># You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs</span>
+  <span class="c1"># builder: &quot;dirhtml&quot;</span>
+  <span class="c1"># Fail on all warnings to avoid broken references</span>
+  <span class="c1"># fail_on_warning: true</span>
+
+<span class="c1"># Optionally build your docs in additional formats such as PDF and ePub</span>
+<span class="c1"># formats:</span>
+<span class="c1">#   - pdf</span>
+<span class="c1">#   - epub</span>
+
+<span class="c1"># Optional but recommended, declare the Python requirements required</span>
+<span class="c1"># to build your documentation</span>
+<span class="c1"># See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html</span>
+<span class="c1"># python:</span>
+<span class="c1">#   install:</span>
+<span class="c1">#     - requirements: docs/requirements.txt</span>
+</pre></div>
+</div>
+</section>
+<section id="id13">
+<h2>绑定仓库<a class="headerlink" href="#id13" title="Link to this heading"></a></h2>
+<p>绑定GitHub账户，并选择对应GitHub库。</p>
+</section>
+<section id="id14">
+<h2>构建在线文档<a class="headerlink" href="#id14" title="Link to this heading"></a></h2>
+<p>使用Read the Docs的buld一键构建在线文档。构建完成后可通过对应网址访问。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Sphinx 鏂囨。 documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, hongDoc.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
