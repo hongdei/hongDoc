@@ -15,4 +15,4 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-   创建Sphinx文档.md
+   Sphinx搭建.md
